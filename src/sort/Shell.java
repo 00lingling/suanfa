@@ -1,5 +1,5 @@
 package sort;
-
+//适用于大规模且乱序的数组
 public class Shell {
     public static void sort(Comparable[] a){
         int N=a.length;

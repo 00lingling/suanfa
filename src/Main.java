@@ -1,7 +1,4 @@
-import sort.Insertion;
-import sort.Merge;
-import sort.Selection;
-import sort.Shell;
+import sort.*;
 
 public class Main {
 
@@ -10,6 +7,8 @@ public class Main {
 //        Selection.sort(a);
 //        Insertion.sort(a);
 //        Shell.sort(a);
-        Merge.sort(a);
+//        Merge.sort(a);
+//        Quick.sort(a);
+        Quick3way.sort(a);
     }
 }

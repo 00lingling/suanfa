@@ -1,5 +1,6 @@
 package sort;
 //时间复杂度为O（NlgN）
+//时间复杂度虽然降低了，但空间复杂度提高了
 public class Merge {
     public static Comparable[] aux;
     public static void sort(Comparable[] a){

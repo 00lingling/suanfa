@@ -1,5 +1,6 @@
 package sort;
 //时间复杂度为0（N^2）
+//运行时间与输入无关，是最简单的排序
 public class Selection {
     public static void sort(Comparable[] a){
         int N=a.length;

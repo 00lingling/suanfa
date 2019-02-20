@@ -1,5 +1,6 @@
 package sort;
-//最好时间复杂度为0（N^2），最好时间复杂度为0（N）;平均时间复杂度为0（N^2）
+//最高时间复杂度为0（N^2），最低时间复杂度为0（N）
+//适用于小规模且部分有序的数组
 public class Insertion {
     public static void sort(Comparable[] a){
         int N=a.length;
