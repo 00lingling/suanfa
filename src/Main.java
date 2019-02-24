@@ -1,3 +1,5 @@
+import Search.Binary;
+import Search.Sequential;
 import sort.*;
 
 public class Main {
@@ -5,12 +7,14 @@ public class Main {
     public static void main(String[] args) {
 //       String[] a={"S","O","R","T","E","X","A","M","P","L","E"};
         Integer[] a={0,2,4,6,2,7,1,9};
-//        Selection.sort(a);
+        Selection.sort(a);
 //        Insertion.sort(a);
 //        Shell.sort(a);
 //        Merge.sort(a);
 //        Quick.sort(a);
 //        Quick3way.sort(a);
-        Heap.sort(a);
+//        Heap.sort(a);
+//        Sequential.search(a,1);
+        Binary.search(a,1);
     }
 }

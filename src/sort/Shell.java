@@ -8,7 +8,7 @@ public class Shell {
             h=h*3+1;
         while(h>=1){
             for(int i=h;i<N;i++){
-                for(int j=i;j>=h&&Exampl.less(a[j],a[j-h]);j-=h)
+                for(int j = i; j>=h&& Exampl.less(a[j],a[j-h]); j-=h)
                     Exampl.exch(a,j,j-h);
             }
             h=h/3;
